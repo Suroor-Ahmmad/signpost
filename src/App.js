@@ -119,7 +119,7 @@ function App() {
   };
 
   return (
-    <div style={{ height: '100vh', display: 'flex', backgroundImage: 'url(https://assets.architecturaldigest.in/photos/60083a72274aca243711c18d/master/w_1000,c_limit/Hamad-International-Airport-Doha-Qatar-HOK-21.jpg)', }}>
+    <div style={{ height: '100vh', display: '--webkit-box', backgroundSize: 'contain', backgroundImage: 'url(https://assets.architecturaldigest.in/photos/60083a72274aca243711c18d/master/w_1000,c_limit/Hamad-International-Airport-Doha-Qatar-HOK-21.jpg)', }}>
       <div style={{ flex: 1 }}>
         <Canvas camera={{ position: [0, 100, 300], fov: 60 }}>
           <ambientLight />
